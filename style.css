@@ -15,13 +15,13 @@ body{
     margin: 0;
 }
 
-body>div{
+.flex-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 25vh 30vw ;
-    border: 2px solid #000 ;
+    /* border: 2px solid #000 ; */
 }
 
 body>div>div{
@@ -30,9 +30,13 @@ body>div>div{
     margin: 2.5vh .5vw;
     padding: 1vh 1vw;
     border:0px solid #000 ;
-    border-radius: 10px;
-    width: 15vw;
-    height: 50vh;
+    border-radius: 50px;
+    width: 5vw;
+    height: 80vh;
+    transition: width 2s;
+}
+.container1{
+    width: 70vw;
 }
 
 h3{

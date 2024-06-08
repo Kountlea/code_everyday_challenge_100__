@@ -6,7 +6,7 @@ let contain5 = document.querySelector('.container5') ;
 
 function click1(){
     //alert("Vous m'avez cliqué !");
-    contain1.style.width = '35vw'; 
+    contain1.style.width = '70vw'; 
     contain2.style.width = '5vw'; 
     contain3.style.width = '5vw';
     contain4.style.width = '5vw'; 
@@ -15,7 +15,7 @@ function click1(){
 function click2(){
     //alert("Vous m'avez cliqué !");
     contain1.style.width = '5vw'; 
-    contain2.style.width = '35vw'; 
+    contain2.style.width = '70vw'; 
     contain3.style.width = '5vw';
     contain4.style.width = '5vw'; 
     contain5.style.width = '5vw'; 
@@ -24,7 +24,7 @@ function click3(){
     //alert("Vous m'avez cliqué !");
     contain1.style.width = '5vw'; 
     contain2.style.width = '5vw'; 
-    contain3.style.width = '35vw';
+    contain3.style.width = '70vw';
     contain4.style.width = '5vw'; 
     contain5.style.width = '5vw'; 
 }
@@ -34,7 +34,7 @@ function click4(){
     contain1.style.width = '5vw'; 
     contain2.style.width = '5vw'; 
     contain3.style.width = '5vw';
-    contain4.style.width = '35vw'; 
+    contain4.style.width = '70vw'; 
     contain5.style.width = '5vw';  
 }
 function click5(){
@@ -43,5 +43,5 @@ function click5(){
     contain2.style.width = '5vw'; 
     contain3.style.width = '5vw';
     contain4.style.width = '5vw'; 
-    contain5.style.width = '35vw'; 
+    contain5.style.width = '70vw'; 
 }
